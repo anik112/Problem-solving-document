@@ -1,0 +1,16 @@
+Create a text file and type some code
+
+// code for run in CMD
+@echo off
+cd "C:\Program Files (x86)\CodeBlocks"
+start codeblocks.exe
+
+cd "C:\Program Files (x86)\AnyDesk"
+start AnyDesk.exe
+
+exit
+
+> @echo off
+> cd "program folder path like: C:\Program Files (x86)\CodeBlocks"
+> start program name like: codeblocks.exe
+> exit
