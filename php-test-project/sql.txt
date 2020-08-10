@@ -1,0 +1,9 @@
+CREATE TABLE tb_patient_pendding_list (
+patient_id int(11) not null,
+doctor_id int(11) not null,
+patient_name varchar(100),
+    patient_number varchar(50),
+    doctor_name varchar(100),
+    doctore_number varchar(50),
+    apt_tine varchar(50)
+);
